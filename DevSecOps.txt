@@ -1,0 +1,24 @@
+DevSecOps (Development, Security, and Operations) is a practice that integrates security into every stage of the software development lifecycle (SDLC). It ensures that security is not an afterthought but a continuous, automated part of development and deployment processes.
+
+🔐 Key Features of DevSecOps:
+Shift-left security: Security checks start early in the development phase.
+
+Automation: Integrates tools for code scanning, vulnerability assessment, and compliance into CI/CD pipelines.
+
+Collaboration: Encourages strong cooperation between development, security, and operations teams.
+
+Faster delivery: Delivers secure applications without slowing down deployment cycles.
+
+✅ DevSecOps Tools (Examples):
+CI/CD: Jenkins, GitLab CI
+
+Security: OWASP ZAP, SonarQube, Trivy, Snyk
+
+Container Security: Docker Bench, Clair, Anchore
+
+Monitoring: ELK Stack, Prometheus, Grafana
+
+🎯 Goal:
+To build secure, reliable, and compliant software faster and more efficiently by embedding security practices from the start.
+
+Let me know if you want a project-based or resume-friendly description too.
