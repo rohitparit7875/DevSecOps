@@ -1,0 +1,38 @@
+Q1. How do you handle user input securely?
+Validate all input on the server side, use allowlists, sanitize data, and encode output properly.
+
+
+---
+
+Q2. How do you manage secrets in code?
+Never hardcode secrets. Use environment variables, secret managers like AWS Secrets Manager or HashiCorp Vault.
+
+
+---
+
+Q3. How do you ensure secure session management?
+Use secure cookies, regenerate session IDs after login, enforce timeouts, and use HTTPS-only flags.
+
+
+---
+
+Q4. How should exceptions and errors be handled?
+Do not expose internal system details in error messages. Log securely and show generic messages to users.
+
+
+---
+
+Q5. What are parameterized queries?
+Queries that use placeholders for user input instead of concatenating strings. Prevents SQL Injection.
+
+
+---
+
+Q6. How to protect data at rest and in transit?
+Use strong encryption algorithms like AES-256 for data at rest, and TLS 1.2+ for data in transit.
+
+
+---
+
+Q7. What is a threat model?
+A structured approach to identifying, analyzing, and mitigating potential threats in a system.
