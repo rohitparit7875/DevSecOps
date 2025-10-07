@@ -1,0 +1,77 @@
+Q1. What is OWASP Top 10 and why is it important?
+A: OWASP Top 10 is a standard awareness document that lists the most critical web application security risks. It helps developers and security teams understand, identify, and mitigate common vulnerabilities to build more secure software.
+
+
+---
+
+Q2. Difference between SQL Injection and Command Injection
+A:
+
+SQL Injection: Injecting malicious SQL queries into input fields to access or modify database data.
+
+Command Injection: Injecting system-level commands into applications that execute shell commands.
+→ Prevention: Use parameterized queries and avoid unsafe system calls.
+
+
+
+---
+
+Q3. How to prevent Cross-Site Scripting (XSS)?
+A:
+
+Use proper input validation and output encoding.
+
+Sanitize user inputs.
+
+Implement Content Security Policy (CSP).
+
+Avoid using innerHTML directly in JavaScript.
+
+
+
+---
+
+Q4. What causes Broken Access Control and how to fix it?
+A: It happens when users can access data or functions they shouldn’t.
+→ Fix: Enforce role-based access control, validate permissions server-side, and test with authorization scanners.
+
+
+---
+
+Q5. Example of Security Misconfiguration
+A: Leaving default admin credentials or enabling directory listing.
+→ Fix: Disable unnecessary features, update servers, and follow hardening guides.
+
+
+---
+
+Q6. What is Insecure Deserialization?
+A: When untrusted data is deserialized without validation, attackers can execute code or manipulate data.
+→ Fix: Validate and sanitize serialized data, use digital signatures for objects.
+
+
+---
+
+Q7. How can CSRF attacks be prevented?
+A: Use CSRF tokens, SameSite cookies, and confirm user actions with re-authentication for sensitive operations.
+
+
+---
+
+Q8. What is Sensitive Data Exposure and prevention?
+A: It occurs when confidential data (like passwords or credit card info) is not properly protected.
+→ Fix: Use TLS/SSL, encrypt data at rest, avoid logging sensitive info.
+
+
+---
+
+Q9. What is SSRF and how do you defend against it?
+A: Server-Side Request Forgery tricks a server into sending requests to unintended locations.
+→ Fix: Validate URLs, restrict internal network access, and whitelist domains.
+
+
+---
+
+Q10. What are Vulnerable and Outdated Components?
+A: Using old versions of frameworks or libraries with known vulnerabilities.
+→ Fix: Regularly update dependencies and monitor CVEs.
