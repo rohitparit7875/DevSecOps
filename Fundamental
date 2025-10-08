@@ -1,0 +1,13 @@
+Understanding DevOps Fundamentals
+In this section, we will cover the basic DevOps fundamentals and terminologies that are essential for a DevOps engineer.
+
+DevOps Introduction
+DevOps Prerequisites
+Lifecycle of DevOps
+2. Linux for DevOps
+Linux is one of the most widely used operating systems for servers and cloud environment. This section introduces the core Linux concepts, commands, and networking essentials every DevOps engineer should know.
+
+What is Linux Operating System?
+Linux Commands for DevOps
+Network configuration and troubleshooting commands in Linux
+SSH Server (sshd) Configuration and Security Options With Examples
