@@ -1,0 +1,75 @@
+loud Computing
+Git
+Amazon Web Services
+Docker
+Kubernetes
+Microsoft Azure
+Google Cloud Platform
+Python
+Golang
+
+Sign In
+▲
+Open In App
+DevOps Tutorial
+Last Updated : 12 Sep, 2025
+DevOps is a combination of two words: "Development" and "Operations." It’s a modern approach where software developers and software operations teams work together throughout the entire software life cycle.
+
+The goals of DevOps are:
+
+Faster and continuous software releases.
+Reduces manual errors through automation.
+Built-in Monitoring, detect failures or issues during delivery or in production.
+Automate testing throughout the software delivery process.
+256040170-.webp256040170-.webp
+Before DevOps, software delivery was slow and manual. Separate teams handled coding, server setup, testing, and deployment, leading to delays and frequent errors due to lack of automation.
+With DevOps, the process is fast, automated, and collaborative. Using tools like Git, Jenkins, Docker, and Kubernetes, teams can build, test, and deploy code continuously, enabling deployment in hours instead of days.
+1. Understanding DevOps Fundamentals
+In this section, we will cover the basic DevOps fundamentals and terminologies that are essential for a DevOps engineer.
+
+DevOps Introduction
+DevOps Prerequisites
+Lifecycle of DevOps
+2. Linux for DevOps
+Linux is one of the most widely used operating systems for servers and cloud environment. This section introduces the core Linux concepts, commands, and networking essentials every DevOps engineer should know.
+
+What is Linux Operating System?
+Linux Commands for DevOps
+Network configuration and troubleshooting commands in Linux
+SSH Server (sshd) Configuration and Security Options With Examples
+Learn Linux in Advance with our: Linux Tutorial
+
+3. Source Code Management
+Source Code Management is one of the key aspects of DevOps. Git is considered to be one of the best tools for version control of source codes. In this section on Source Code Management, we’ll explore the fundamentals of version control using tools like Git, GitHub, GitLab, and Bitbucket.
+
+Introduction and Installation of Git
+How Git Version Control Works?
+Useful Git Commands and Basic Concepts
+Introduction to GitHub
+List of useful GitHub Commands
+Difference Between GitLab and GitHub
+How to setup GitLab Repo in Windows 10
+Bitbucket vs GitHub Vs GitLab
+To learn Git in advance, refer: Git Tutorial
+
+CI/CD in DevOps
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It is a core DevOps practice that automates the process of building, testing, and deploying code changes to production faster and more reliably.
+
+What is CI/CD?
+What is Jenkins?
+Understanding Jenkins CI/CD Pipeline And Its Stages
+How to Make a CI-CD Pipeline in Jenkins?
+To learn Jenkins in advance, refer: Jenkins Tutorial
+
+4. Scripting Language for DevOps
+Scripting language is essential in DevOps as it helps automate repetitive tasks, reduces errors, and saves time. Languages like Bash, YAML, and Python are widely used.
+
+What is YAML?
+YAML Comments
+How to block comments in YAML
+Difference between YAML and JSON
+Python For DevOps:  A Complete Guide For Beginners
+How to run python script
+Introduction to Linux Shell Scripting
+How to create a Shell Script
+Introduction to Bash and Bash Scripting
