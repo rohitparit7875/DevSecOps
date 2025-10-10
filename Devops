@@ -1,0 +1,46 @@
+🧠 Basic DevOps Interview Questions & Answers
+
+1. What is DevOps?
+➡️ DevOps is a culture and set of practices that combine software development (Dev) and IT operations (Ops).
+The goal is to shorten the system development life cycle and deliver high-quality software continuously.
+
+
+---
+
+2. What are the key benefits of DevOps?
+✅ Faster software delivery
+✅ Improved collaboration between teams
+✅ Better quality and reliability
+✅ Continuous feedback and improvement
+✅ Reduced deployment failures
+
+
+---
+
+3. What are the main phases of a DevOps lifecycle?
+
+1. Plan – Project planning using Jira, Azure Boards
+
+
+2. Code – Writing and managing code using Git
+
+
+3. Build – Using Maven, Gradle, Jenkins
+
+
+4. Test – Using Selenium, JUnit, etc.
+
+
+5. Release – Using Jenkins, Docker, Helm
+
+
+6. Deploy – Using Kubernetes, Ansible
+
+
+7. Operate – Using monitoring tools like Prometheus, Grafana
+
+
+8. Monitor – Feedback and continuous improvement
+
+
+
