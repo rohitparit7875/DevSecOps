@@ -1,0 +1,69 @@
+What are popular DevOps tools?
+
+Version Control: Git, GitHub, GitLab, Bitbucket
+
+CI/CD: Jenkins, GitHub Actions, GitLab CI
+
+Configuration Management: Ansible, Chef, Puppet
+
+Containerization: Docker
+
+Orchestration: Kubernetes
+
+Monitoring: Nagios, Prometheus, Grafana
+
+Cloud Platforms: AWS, Azure, GCP
+
+
+
+---
+
+5. What is Continuous Integration (CI)?
+➡️ CI is the process of automatically building and testing code every time a developer commits changes to version control.
+Example tool: Jenkins, GitHub Actions
+
+Benefits:
+
+Early bug detection
+
+Consistent code integration
+
+Fast feedback
+
+
+
+---
+
+6. What is Continuous Deployment (CD)?
+➡️ CD automatically deploys code to production after passing all tests.
+Tools: Jenkins, Spinnaker, ArgoCD
+
+Goal: Deliver updates faster and with fewer errors.
+
+
+---
+
+7. What is Infrastructure as Code (IaC)?
+➡️ IaC means managing infrastructure (servers, networks, storage) using code instead of manual configuration.
+Example tools: Terraform, CloudFormation, Ansible
+
+Benefit:
+
+Version control for infrastructure
+
+Consistency and automation
+
+
+
+---
+
+8. What is the difference between Ansible, Puppet, and Chef?
+
+Tool	Language	Type	Agent/Agentless
+
+Ansible	YAML	Push-based	Agentless
+Puppet	DSL (Ruby)	Pull-based	Agent required
+Chef	Ruby	Pull-based	Agent required
+
+
+
