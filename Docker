@@ -1,0 +1,58 @@
+What is Docker?
+➡️ Docker is a containerization platform that packages an application and its dependencies into a single container.
+Command Example:
+
+docker run -d -p 8080:80 nginx
+
+Benefits:
+
+Lightweight
+
+Portable
+
+Consistent environments
+
+
+
+---
+
+10. What is Kubernetes?
+➡️ Kubernetes is a container orchestration tool that automates deployment, scaling, and management of containerized applications.
+
+Key Components:
+
+Pod: Smallest deployable unit
+
+Node: Worker machine
+
+Cluster: Group of nodes
+
+Deployment: Manages replica sets and updates
+
+Service: Exposes pods to the network
+
+
+
+---
+
+11. How does Jenkins work in CI/CD?
+➡️ Jenkins automates the build, test, and deployment process using pipelines.
+
+Example:
+
+pipeline {
+  stages {
+    stage('Build') {
+      steps { sh 'mvn clean install' }
+    }
+    stage('Test') {
+      steps { sh 'mvn test' }
+    }
+    stage('Deploy') {
+      steps { sh 'kubectl apply -f deployment.yaml' }
+    }
+  }
+}
+
+
+---
