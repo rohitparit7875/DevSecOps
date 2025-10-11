@@ -1,0 +1,161 @@
+🧰 Step 1 — Verify Snort Installation
+
+Check Snort version:
+
+snort -V
+
+If not installed, install it (Debian/Ubuntu example):
+
+sudo apt update
+sudo apt install snort -y
+
+During installation, it may ask for your network interface (example: eth0).
+
+
+---
+
+📁 Step 2 — Find Snort Configuration and Rules
+
+Default locations:
+
+Config: /etc/snort/snort.conf
+Rules:  /etc/snort/rules/
+Logs:   /var/log/snort/
+
+
+---
+
+🧾 Step 3 — Create or Edit Local Rules
+
+Create or open your local rules file:
+
+sudo nano /etc/snort/rules/local.rules
+
+Example rule:
+
+alert icmp any any -> any any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
+
+Save & exit → (Ctrl + O, Enter, Ctrl + X)
+
+
+---
+
+⚙️ Step 4 — Make Sure Local Rules Are Loaded
+
+Open main Snort config:
+
+sudo nano /etc/snort/snort.conf
+
+Check this line exists (uncomment if needed):
+
+include $RULE_PATH/local.rules
+
+
+---
+
+🧪 Step 5 — Test Configuration
+
+Before starting monitoring:
+
+sudo snort -T -c /etc/snort/snort.conf
+
+✅ Output should say:
+Snort successfully validated the configuration!
+
+
+---
+
+🖥️ Step 6 — Start Snort in Monitoring Mode
+
+Now start Snort as a live Intrusion Detection System:
+
+sudo snort -A console -q -c /etc/snort/snort.conf -i eth0
+
+Explanation:
+
+-A console → show alerts on screen
+
+-q → quiet mode (less verbose)
+
+-c → path to config file
+
+-i → network interface (replace eth0 if needed)
+
+
+To find your interface:
+
+ip link show
+
+
+---
+
+📦 Step 7 — Background Logging Mode (Continuous Monitoring)
+
+If you want Snort to run quietly and log alerts to files:
+
+sudo snort -A fast -c /etc/snort/snort.conf -i eth0 -D
+
+Explanation:
+
+-A fast → logs alerts in fast mode (alert file)
+
+-D → daemon mode (runs in background)
+
+
+
+---
+
+📂 Step 8 — Check Logs
+
+View recent alerts:
+
+sudo cat /var/log/snort/alert
+
+For continuous monitoring:
+
+sudo tail -f /var/log/snort/alert
+
+
+---
+
+🧲 Step 9 — Generate Some Traffic (for testing)
+
+Ping another system or any public IP:
+
+ping 8.8.8.8
+
+Snort should detect it and log:
+
+[**] [1:1000001:1] ICMP Ping Detected [**]
+
+
+---
+
+🛠️ Step 10 — Optional: Auto-Start Snort on Boot
+
+Create a systemd service (for continuous monitoring on reboot):
+
+sudo nano /etc/systemd/system/snort.service
+
+Paste this:
+
+[Unit]
+Description=Snort IDS
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/snort -A fast -c /etc/snort/snort.conf -i eth0 -D
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+Enable and start it:
+
+sudo systemctl enable snort
+sudo systemctl start snort
+sudo systemctl status snort
+
+
+---
