@@ -1,0 +1,10 @@
+ifconfig                # Show network interfaces (older)
+ip addr show            # Show all IP addresses
+ip route show           # Show routing table
+ping -c 4 8.8.8.8       # Ping 4 times
+traceroute google.com   # Show path packets take
+netstat -tulnp          # Show all listening ports (use ss -tulnp in newer systems)
+ss -tuln                # Show open TCP/UDP ports
+nmap -sS 192.168.1.0/24 # Scan your local network (install: sudo apt install nmap)
+tcpdump -i eth0         # Capture packets on interface eth0
+tcpdump -i eth0 -nn port 80  # Capture only HTTP traffic
