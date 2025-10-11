@@ -1,0 +1,10 @@
+uname -a                # Show kernel and system info
+lsb_release -a          # Show Linux distro version
+top                     # Real-time process monitoring
+htop                    # Better version of top (install: sudo apt install htop)
+vmstat 1                # Show CPU, memory, and process stats (updates every second)
+iostat -xz 1            # Show CPU and disk I/O performance
+lscpu                   # Display CPU info
+free -h                 # Show memory usage
+df -h                   # Show disk usage
+du -sh *                # Show folder sizes in current directory
