@@ -1,0 +1,7 @@
+
+Principle	Description
+Automation	Security tools integrated in CI/CD pipelines.
+Collaboration	Dev, Sec, and Ops teams work together.
+Continuous Monitoring	Track vulnerabilities, threats, and compliance in real-time.
+Early Integration (Shift Left)	Security tests are included in early stages.
+Compliance as Code	Automate compliance policies and audits.
