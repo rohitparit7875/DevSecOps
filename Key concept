@@ -1,0 +1,29 @@
+🔐 Key Concepts of DevOps Security
+
+1. Shift Left Approach
+
+Security testing starts early in development rather than after deployment.
+
+Developers use secure coding practices and automated security scans.
+
+
+
+2. Automation
+
+Tools automatically check for vulnerabilities in code, dependencies, and configurations.
+
+Continuous Integration (CI) pipelines run SAST, DAST, and SCA scans automatically.
+
+
+
+3. Continuous Monitoring
+
+Production systems are monitored for intrusions, misconfigurations, or policy violations.
+
+Security alerts are integrated into CI/CD dashboards.
+
+
+
+4. Infrastructure as Code (IaC) Security
+
+Cloud infrastructure (Terraform, Ansible, CloudFormation) is scanned for insecure configurations.
