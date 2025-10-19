@@ -1,0 +1,33 @@
+Popular DevSecOps Tools
+
+Category	Tools
+
+SAST (Static Application Security Testing)	SonarQube, Semgrep, Checkmarx
+DAST (Dynamic Application Security Testing)	OWASP ZAP, Burp Suite, Acunetix
+SCA (Software Composition Analysis)	Snyk, OWASP Dependency-Check
+Container Security	Trivy, Aqua, Anchore, Clair
+IaC Security	Checkov, Terrascan
+CI/CD Security Integration	Jenkins, GitHub Actions, GitLab CI with security plugins
+
+
+
+---
+
+⚙️ Example DevSecOps Workflow
+
+1. Code Commit → Developer pushes code to Git.
+
+
+2. CI Build → Runs unit tests + SAST + SCA scans.
+
+
+3. Container Build → Docker image scanned for vulnerabilities.
+
+
+4. Deploy (CD) → IaC templates validated; secrets retrieved securely.
+
+
+5. Monitor → Runtime security tools monitor logs, metrics, and alerts.
+
+
+
