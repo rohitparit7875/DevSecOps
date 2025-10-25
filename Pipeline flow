@@ -1,0 +1,41 @@
+⚙️ Pipeline Flow:
+
+1. Code Commit
+→ Developer pushes code to GitHub/GitLab.
+
+
+2. Trigger CI Pipeline
+→ Jenkins/GitHub Actions triggers build automatically.
+
+
+3. Build & Unit Test Stage
+→ Compile and run automated unit tests.
+
+
+4. Static Analysis (SAST)
+→ SonarQube or Semgrep checks for:
+
+Code quality issues
+
+Security vulnerabilities (e.g., SQL injection, hardcoded secrets)
+
+
+
+5. Dependency Scan
+→ Trivy scans libraries and Docker images for known CVEs.
+
+
+6. Dynamic Analysis (DAST)
+→ OWASP ZAP simulates real-world attacks on the test environment.
+
+
+7. Quality Gate Enforcement
+→ Build fails if critical vulnerabilities are detected.
+
+
+8. Artifact Deployment (CD)
+→ Secure build is pushed to Docker registry and deployed to Kubernetes or staging server.
+
+
+9. Notification & Reports
+→ Jenkins emails or Slack messages summarize vulnerability findings.
