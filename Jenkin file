@@ -1,0 +1,52 @@
+📁 Example Jenkinsfile (Simplified)
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/example/myapp.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+
+        stage('SAST - SonarQube') {
+            steps {
+                sh 'mvn sonar:sonar -Dsonar.host.url=http://sonarqube:9000'
+            }
+        }
+
+        stage('Dependency Scan - Trivy') {
+            steps {
+                sh 'trivy fs . > trivy-report.txt || true'
+            }
+        }
+
+        stage('DAST - OWASP ZAP') {
+            steps {
+                sh 'zap-baseline.py -t http://myapp.test -r zap-report.html || true'
+            }
+        }
+
+        stage('Deploy to Staging') {
+            steps {
+                sh 'kubectl apply -f k8s/deployment.yaml'
+            }
+        }
+
+        stage('Notify') {
+            steps {
+                mail to: 'dev-team@example.com',
+                     subject: "Build #${env.BUILD_NUMBER} - Vulnerability Scan Report",
+                     body: "Check attached reports for vulnerability results."
+            }
+        }
+    }
+}
+
