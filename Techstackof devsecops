@@ -1,0 +1,17 @@
+
+🧩 Tech Stack:
+
+Stage	Tool	Purpose
+
+Code Repository	GitHub / GitLab	Version control
+Build Automation	Jenkins / GitHub Actions	CI/CD orchestration
+Static Code Analysis	SonarQube / Semgrep	SAST (code-level security scan)
+Dependency Scanning	Trivy / OWASP Dependency-Check	Check vulnerable libraries
+Dynamic Testing	OWASP ZAP / Nikto	DAST (runtime web app scanning)
+Container Security	Trivy / Clair	Scan Docker images for CVEs
+Deployment	Docker + Kubernetes / AWS ECS	Containerized deployment
+Reporting	Slack / Email / Jenkins reports	Notify devs of scan results
+
+
+
+---
