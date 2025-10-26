@@ -1,0 +1,12 @@
+🛠️ Tech Stack:
+
+Category	Tools
+
+Source Code Management	GitHub / GitLab
+CI/CD Pipeline	Jenkins / GitLab CI / GitHub Actions
+Static Code Analysis (SAST)	SonarQube
+Dependency Scanning (SCA)	OWASP Dependency-Check / Trivy
+Container Security	Docker + Trivy / Anchore
+Infrastructure Security	Terraform + Checkov
+Deployment	Kubernetes / Docker Compose
+Monitoring	Prometheus + Grafana
