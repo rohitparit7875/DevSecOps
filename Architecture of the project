@@ -1,0 +1,12 @@
+🧱 Architecture Diagram (Conceptual):
+
+Developer → GitHub → Jenkins Pipeline
+             ↓          ↓
+          SonarQube ←→ OWASP DC
+             ↓          ↓
+          Docker Build → Trivy Scan
+             ↓
+         Kubernetes Deploy
+             ↓
+     Prometheus ←→ Grafana
+
