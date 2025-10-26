@@ -1,0 +1,41 @@
+🔄 Pipeline Flow:
+
+1. Developer commits code to GitHub.
+
+
+2. Jenkins (or GitHub Actions) automatically triggers the CI/CD pipeline.
+
+
+3. Build Stage:
+
+Code is pulled and built into a Docker image.
+
+
+
+4. Security Stage:
+
+SAST: SonarQube scans for code vulnerabilities.
+
+SCA: OWASP Dependency-Check or Trivy scans for dependency issues.
+
+Container Scan: Trivy scans the Docker image for CVEs.
+
+IaC Scan: Checkov scans Terraform/Kubernetes YAML for misconfigurations.
+
+
+
+5. Test Stage:
+
+Unit and integration tests run automatically.
+
+
+
+6. Deploy Stage:
+
+If all checks pass, the image is deployed to a Kubernetes cluster.
+
+
+
+7. Monitoring Stage:
+
+Prometheus monitors application metrics and Grafana visualizes them.
