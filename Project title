@@ -1,0 +1,4 @@
+🧩 Project Overview:
+
+This project demonstrates how to integrate security practices within a DevOps pipeline, ensuring that vulnerabilities are caught early during development — not after deployment.
+You’ll build a CI/CD pipeline that automatically scans code, dependencies, and container images before deployment to production.
