@@ -1,0 +1,24 @@
+🧩 DevOps Lifecycle
+
+1. Plan – Define requirements & goals (e.g., Jira, Trello)
+
+
+2. Code – Source code management (e.g., Git, GitHub, GitLab)
+
+
+3. Build – Compile code & manage dependencies (e.g., Maven, Gradle)
+
+
+4. Test – Automated testing (e.g., Selenium, JUnit)
+
+
+5. Integrate – Continuous Integration (e.g., Jenkins, GitLab CI)
+
+
+6. Deploy – Continuous Deployment (e.g., Docker, Kubernetes)
+
+
+7. Operate – Manage & monitor (e.g., Prometheus, Grafana)
+
+
+8. Monitor – Track app performance & logs (e.g., ELK Stack, Splunk)
