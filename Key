@@ -1,0 +1,14 @@
+
+⚙️ Key DevOps Tools
+
+Stage	Tool Examples
+
+Source Code Management	Git, GitHub, Bitbucket
+Continuous Integration	Jenkins, GitLab CI/CD, CircleCI
+Configuration Management	Ansible, Puppet, Chef
+Containerization	Docker, Podman
+Orchestration	Kubernetes, OpenShift
+Cloud Platforms	AWS, Azure, GCP
+Monitoring	Prometheus, Grafana, Nagios
+Infrastructure as Code (IaC)	Terraform, CloudFormation
+Version Control	Git
