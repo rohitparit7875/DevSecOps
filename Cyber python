@@ -1,0 +1,13 @@
+3️⃣ Important Python Libraries for Cyber Security
+🔹 Must-Know
+os – file & process operations
+sys – system arguments
+re – regex for log parsing
+json – handle SIEM logs
+datetime – timestamp analysis
+subprocess – run system commands
+🔹 Security-Focused
+hashlib – file hashing (MD5, SHA256)
+socket – network scanning
+requests – API calls
+base64 – malware decoding
