@@ -1,0 +1,15 @@
+2️⃣ Common Python Use-Cases in SOC
+SOC Task
+Python Usage
+Log analysis
+Parse logs using regex, json
+SIEM automation
+Script alerts & enrich data
+Threat hunting
+Match IOCs
+Incident response
+Auto-collect evidence
+Malware analysis
+Decode / analyze files
+API integration
+VirusTotal, AbuseIPDB
