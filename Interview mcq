@@ -1,0 +1,9 @@
+🔟 Common SOC Python Interview MCQs
+Q: Which module is used for hashing files?
+✅ Answer: hashlib
+Q: Best module for parsing JSON logs?
+✅ Answer: json
+Q: Used for executing Linux commands?
+✅ Answer: subprocess
+Q: Extract patterns from logs?
+✅ Answer: re
