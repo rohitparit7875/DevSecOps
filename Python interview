@@ -1,0 +1,9 @@
+1️⃣ Why is Python important for SOC Analysts?
+Correct answer (short):
+Python is used to automate security tasks, analyze logs, detect threats, and integrate security tools.
+Explain with examples:
+Log analysis (SIEM logs)
+Malware analysis scripts
+IOC scanning (IP, domain, hash)
+Automation (alerts, reports)
+Incident response scripting
