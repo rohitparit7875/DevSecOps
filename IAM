@@ -1,0 +1,8 @@
+2️⃣ Identity & Access Management (IAM)
+Controls who can access cloud resources and what they can do.
+🔹 Key aspects:
+User authentication (MFA)
+Role-based access control (RBAC)
+Least privilege principle
+Identity federation
+📌 Example: Only admins can access production servers.
