@@ -1,0 +1,7 @@
+🔹 1. Fundamentals of SRE
+What is SRE and how is it different from DevOps?
+What are SLI, SLO, SLA? Explain with examples.
+What is error budget and why is it important?
+What is high availability and how do you design for it?
+Explain latency vs throughput.
+👉 Tip: Focus on reliability mindset, not just tools.
