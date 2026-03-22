@@ -1,0 +1,7 @@
+2. System Design & Architecture
+Design a highly available web application.
+How would you scale a system from 1K to 1M users?
+What is load balancing? Types?
+Explain caching strategies (Redis, CDN).
+How do you handle failover and redundancy?
+👉 Tip: Talk in steps (LB → App → DB → Cache → Monitoring)
