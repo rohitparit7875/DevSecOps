@@ -1,0 +1,11 @@
+🐳 2. Dockerized Microservices Project
+What to build:
+Split an app into 2–3 microservices (e.g., user service, product service)
+DevOps focus:
+Dockerize each service
+Use Docker Compose for orchestration
+Add Nginx as reverse proxy
+Bonus:
+Add Redis or MongoDB
+Implement service communication (REST APIs)
+👉 Skills gained: Containers, microservices, networking
