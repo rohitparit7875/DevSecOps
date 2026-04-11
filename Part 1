@@ -1,0 +1,11 @@
+1. CI/CD Pipeline for Full-Stack App
+What to build:
+Create a simple full-stack app (React + Node.js or Python Flask) and automate deployment.
+DevOps focus:
+Use GitHub Actions / GitLab CI
+Build pipeline: code → test → build → deploy
+Auto-deploy to AWS EC2 / Render / Railway
+Bonus:
+Add Docker containerization
+Use environment variables & secrets
+👉 Skills gained: CI/CD, automation, deployment, Git workflows
