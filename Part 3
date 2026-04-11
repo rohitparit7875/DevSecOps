@@ -1,0 +1,13 @@
+☁️ 3. Infrastructure as Code (IaC) Project
+What to build:
+Automate infrastructure setup using code
+DevOps focus:
+Use Terraform to create:
+EC2 instance
+Security groups
+S3 bucket
+Deploy your app automatically
+Bonus:
+Add Ansible for configuration management
+Use remote backend (S3 + DynamoDB)
+👉 Skills gained: Cloud provisioning, automation, infra design
