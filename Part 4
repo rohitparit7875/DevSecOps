@@ -1,0 +1,10 @@
+here📊 4. Monitoring & Logging System
+What to build:
+Monitor your deployed app like real production systems
+DevOps focus:
+Use Prometheus + Grafana for metrics
+Use ELK Stack (Elasticsearch, Logstash, Kibana) for logs
+Bonus:
+Set alerts (CPU, memory usage)
+Create dashboards
+👉 Skills gained: Observability, monitoring, troubleshooting
