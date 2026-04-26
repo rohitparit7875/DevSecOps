@@ -1,0 +1,14 @@
+1. What is SRE & Core Responsibilities
+Common Questions:
+What is Site Reliability Engineering?
+Difference between SRE and DevOps?
+What are SLIs, SLOs, and SLAs?
+What they expect:
+SRE = applying software engineering to operations
+Focus on availability, scalability, automation
+Strong Answer Tip:
+Mention:
+Monitoring
+Incident response
+Automation
+Reliability improvement
