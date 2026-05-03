@@ -1,0 +1,5 @@
+4. Logs & Service Management
+journalctl -xe
+tail -f logfile
+grep "error" logfile
+systemctl status service_name
