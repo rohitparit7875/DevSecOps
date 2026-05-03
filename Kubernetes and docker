@@ -1,0 +1,5 @@
+3. Kubernetes & Docker
+kubectl get pods
+kubectl logs pod_name
+docker ps
+docker logs container_id
