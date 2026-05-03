@@ -1,0 +1,5 @@
+1. System Monitoring
+top
+htop
+free -m
+uptime
