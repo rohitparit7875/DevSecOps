@@ -1,0 +1,17 @@
+Bit 1 — CI/CD Security
+Topic
+Secure CI/CD Pipeline
+Tools
+Jenkins
+GitHub
+SonarQube
+Main Work
+Automate build and deployment
+Scan source code vulnerabilities
+Block insecure code deployment
+Security
+SAST scanning
+Secret detection
+Secure pipelines
+Interview Line
+“Implemented secure CI/CD pipeline with automated security checks.”
