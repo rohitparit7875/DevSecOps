@@ -1,0 +1,17 @@
+Bit 4 — Application Security
+Topic
+Web Application Security
+Tools
+OWASP ZAP
+Burp Suite
+OWASP
+Main Work
+Scan web applications
+Detect vulnerabilities
+Generate security reports
+Security
+SQL Injection testing
+XSS testing
+API security testing
+Interview Line
+“Integrated automated application security testing in deployment pipeline.”
