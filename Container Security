@@ -1,0 +1,18 @@
+Bit 2 — Container Security
+Topic
+Docker & Kubernetes Security
+Tools
+Docker
+Kubernetes
+Trivy
+Falco
+Main Work
+Secure container images
+Monitor runtime threats
+Manage Kubernetes security
+Security
+Vulnerability scanning
+Runtime monitoring
+RBAC
+Interview Line
+“Worked on container security and Kubernetes threat monitoring.”
