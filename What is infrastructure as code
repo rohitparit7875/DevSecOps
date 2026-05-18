@@ -1,0 +1,6 @@
+Q2: What is Infrastructure as Code (IaC)?
+Answer:
+Managing infrastructure using code.
+Automates server/network provisioning.
+Version-controlled and reusable.
+Tools: Terraform, Ansible.
