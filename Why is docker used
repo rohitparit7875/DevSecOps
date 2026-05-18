@@ -1,0 +1,6 @@
+Q3: Why use Docker?
+Answer:
+Packages application with dependencies.
+Works consistently across environments.
+Lightweight compared to VMs.
+Improves deployment speed.
