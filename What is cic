@@ -1,0 +1,6 @@
+What is CI/CD?
+Answer:
+CI (Continuous Integration): Developers regularly merge code into a shared repo.
+CD (Continuous Delivery/Deployment): Automated release process.
+Helps reduce manual errors and faster delivery.
+Common tools: Jenkins, GitLab, GitHub Actions.
